@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Convertion{
+	public static void main(String[] args){
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.print("Enter a number to convert kilometer into meter:");
+	
+	 double  kilometer = scanner.nextDouble();
+	
+	  double meter = kilometer * 1000;
+	
+	System.out.println( kilometer + " kilometers is equal to " + meter  +" meters");
+	
+	}
+}
